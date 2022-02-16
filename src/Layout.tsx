@@ -17,6 +17,10 @@ export default () => {
       name: 'URL param Example',
       to: 'user',
     },
+    {
+      name: 'Catch-all param Example',
+      to: 'catch-all-param-example/foo/bar/baz',
+    },
   ]
   return (
     <>
