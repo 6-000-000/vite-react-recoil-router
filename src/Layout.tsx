@@ -1,9 +1,19 @@
-import { Outlet } from 'react-router-dom'
+import { Outlet, Link } from 'react-router-dom'
 
 import './layout.css'
 import logo from './static/logo.svg'
 
 export default () => {
+  const links = [
+    {
+      name: 'Home',
+      to: '/',
+    },
+    {
+      name: 'Derived State (Selector) Example',
+      to: 'selector-example',
+    },
+  ]
   return (
     <>
       <header className="App-header">
@@ -14,6 +24,12 @@ export default () => {
 
       <main>
         <Outlet />
+
+        <nav>
+          {links.map(({ to, name }) => (
+            <Link className="App-link" to={to}>{name}</Link>
+          ))}
+        </nav>
       </main>
     </>
   )

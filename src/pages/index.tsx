@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom'
-
 import { useCountStore, useCountIncrementer } from '../store/count'
 
 export default () => {
@@ -17,15 +15,6 @@ export default () => {
  
       <p>
         Edit <code>index.tsx</code> and save to test HMR updates.
-      </p>
-
-      <p>
-        <Link
-          className="App-link"
-          to="/selector-example"
-        >
-          Derived State (Selector) Example
-        </Link>
       </p>
     </article>
   )
