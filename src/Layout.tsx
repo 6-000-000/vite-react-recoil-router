@@ -13,6 +13,10 @@ export default () => {
       name: 'Derived State (Selector) Example',
       to: 'selector-example',
     },
+    {
+      name: 'URL param Example',
+      to: 'user',
+    },
   ]
   return (
     <>
