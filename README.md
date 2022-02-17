@@ -1,5 +1,5 @@
 # vite-react-recoil-router
-A react app template made with Vite featuring state management with [Recoil](https://recoiljs.org/) and file-based routing with [React Router](https://reactrouter.com/).
+A react app template made with [Vite](https://vitejs.dev) featuring state management with [Recoil](https://recoiljs.org/) and file-based routing with [React Router](https://reactrouter.com/).
 
 ## Scripts
 Development
